@@ -1,0 +1,11 @@
+{set:number|{random:0~10}}
+
+{if: {args} == | {embed:description=引数を指定してください,color=16711680}
+| elif: {args} == None | {embed:description=引数を指定してください,color=16711680}
+| elif: {args} == {number} | {embed:description=✅正解です！
+
+正解は`{number}`です,color=2480969}
+| else | {embed:description=❌不正解です。
+
+正解は`{number}`です。,color=16711680}
+}
