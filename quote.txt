@@ -1,0 +1,3 @@
+{if: {args} == | {embed:description=引数を指定してください,color=16711680}
+| else | {embed:description=## ”{args}”,footer=QuoteCommand ({author_id}),author={author}の名言,color=8828384}
+}

@@ -1,0 +1,6 @@
+{if: {args} == mention | {addrole:1509380944207937557}✅メンション通知ロールを追加しました。
+| elif: {args} == youtube | {addrole:1508047571602505858}✅Youtubeロールを追加しました。
+| else | {embed:description=取得できるロール: `mention`、`youtube`
+
+!.roleme <ロール名> でロールを取得できます,color=16711680}
+}
