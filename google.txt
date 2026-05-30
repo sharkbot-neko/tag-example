@@ -1,3 +1,4 @@
 {if: {args} == | {embed:description=引数を指定してください,color=16711680}
+| elif: {args} == None | {embed:description=引数を指定してください,color=16711680}
 | else | https://google.com/search?q={urlencode:{args}}
 }
